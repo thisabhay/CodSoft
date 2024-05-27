@@ -1,0 +1,142 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "League Spartan", sans-serif;
+}
+
+.tnav {
+    background-color: #DB4A2B;
+    text-align: center;
+    padding: 3px 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.nav {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navlogo {
+    height: 3.5rem;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlinks li {
+    padding: 20px 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.5s ease-in-out;
+}
+
+.navlinks li:hover {
+    color: #DB4A2B;
+}
+/* Hero Section */
+.hero {
+    background-image: url("/CodSoft/assets/image-assets1.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.herobg{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.5));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    color: white;
+}
+.herobg h1{
+    font-size: 50px;
+    text-align: center;
+}
+.hero-btn {
+    background-color:  #DB4A2B; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: #FF6347; 
+}
+/* Feature Section */
+.feature-section {
+    padding: 50px 0;
+    background-color: #f9f9f9; 
+}
+
+.fcontainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.feature-image {
+    max-height: 400px;
+    border-radius: 20px;
+    flex: 1 1 40%;
+    margin: 10px; 
+}
+
+.feature-content {
+    flex: 1 1 50%;
+    margin: 10px; 
+}
+
+.feature-content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #DB4A2B;
+}
+
+.feature-content p {
+    font-size: 1.25rem;
+    color: #333; 
+    padding-top: 20px;
+    line-height: 1.6; 
+}
+
+/* Footer Section */
+
+
+.footer-section {
+    background-color: #DB4A2B;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.fcontainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    height: 40px;
+}
