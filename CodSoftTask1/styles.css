@@ -43,7 +43,7 @@ body {
 }
 /* Hero Section */
 .hero {
-    background-image: url("/CodSoft/assets/image-assets1.jpg");
+    background-image: url("./assets/image-assets1.jpg");
     height: 80vh;
     background-size: cover;
     background-position: center;
