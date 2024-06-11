@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhay Gupta </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="icon" href="./assets/images/fav-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="navbar">
+      <img src="assets/images/logo.png" alt="logo" class="logo">
+      <div>
+        <a href="#project" class="navitem hide">Projects</a>
+        <a href="#contact-form" class="navitem cont">Contact</a>
+        <a href="./assets/resume.pdf" class="btn">
+          Resume <img src="assets/images/Download.png" class="Download">
+        </a>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="content">
+        <h1>Abhay Gupta</h1>
+        <div class="hcontainer">
+          <h3>Front-end Developer &<br>Graphic Designer</h3>
+          <img src="./assets/images/hero-img.png" alt="hero-img" style="height: 90px;">
+        </div>
+        <p>Based in <span style="color: orange;">Kolkata, India</span></p>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/thisabhay/" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/thisabhay" target="_blank"><i class="bi bi-github"></i></a>
+          <a href="mailto:workforabhaygupta@gmail.com"><i class="bi bi-envelope uhide"></i>
+            <p>workforabhaygupta@gmail.com</p>
+
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- About -->
+    <section class="about">
+      <div class="title">
+        <h2>about me</h2>
+        <img src="./assets/images/about.png" alt="img" class="titleimg">
+      </div>
+      <div class="aboutme">
+        <figure class="about-img">
+          <img src="/assets/images/aboutimg.jpg" alt="kid">
+        </figure>
+        <div>
+          <p>I'm Abhay Gupta, a passionate <span style="background-color: yellow; color: black;">Computer Science &
+              Engineering</span> third year student at <span style="color: greenyellow; font-weight: 600;">KIIT</span>
+            with
+            a <span>CGPA of 8.27/10</span>.<br><br>
+            <span style="color: orange;">Skills</span> - Java, C++, HTML, CSS, JavaScript, Bootstrap, Framer , Figma,
+            MySQL.</span><br><br>
+            <span style="color: orange;">Experience</span><br>
+          <ul>
+            <LI> <span style="color: greenyellow;">Internship</span> at <span
+                style="color: black;background-color: yellow;"> Codsoft </span>&nbsp; as WebDeveloper <br>
+            </LI>
+            <LI>
+              <span style="color: greenyellow;">Graphic Designer</span> at <span
+                style="color: black;background-color: yellow;">&nbsp;Khwahishein,&nbsp;KIIT </span>
+            </LI>
+          </ul>
+
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Skill -->
+    <section class="skill">
+      <img src="./assets/images/skill-section.svg" class="skillimg" alt="skill">
+    </section>
+    <!-- Projects -->
+    <section class="project" id="project">
+      <div class="title">
+        <img src="./assets/images/project-iicon.png" alt="img" class="titleimg">
+        <h2>Projects</h2>
+      </div>
+      <!-- Project items -->
+      <div class="pcontainer">
+        <div class="pitem">
+          <img src="./assets/projects/netflix.png" class="pimg">
+          <h3 class="ph3">Netflix Clone using Tailwind</h3>
+          <p class="pp">This project focuses on replicating the design and layout of Netflix's homepage, featuring a
+            header, navigation bar, featured content, and footer. Tailwind CSS will be used for styling to ensure a
+            responsive and modern interface.</p>
+          <a href="https://netflix-clone-using-tailwind-css-git-main-abhayguptas-projects.vercel.app/"
+            class="openbtn"><i class="bi bi-link-45deg"></i></a>
+        </div>
+
+        <div class="pitem">
+          <img src="./assets/projects/zerodha.png" class="pimg">
+          <h3 class="ph3">Zerodha Landing Page</h3>
+          <p class="pp">The page will include the header, navigation bar, main content, and footer, replicating the look
+            and feel of the original site. This project enhances HTML and CSS skills while building a visually appealing
+            webpage.</p>
+          <a href="https://100x-devs-cohort-2-0.vercel.app/" class="openbtn"><i class="bi bi-link-45deg"></i></a>
+        </div>
+
+    </section>
+    <br>
+    <br>
+    <!-- Contact Form -->
+    <section class="contact-form" id="contact-form">
+      <div class="title">
+        <h2>Get in Touch</h2>
+        <img src="./assets/images/mail.png" alt="img" class="titleimg">
+      </div>
+      <form action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="a126a6e3-c7fe-4f61-9c4a-0aad552ba153">
+
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Mail</label>
+          <input type="email" id="email" name="email" placeholder="Enter Mail">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Don't Be Shy,&#10;Write A Sweet Message & Send It Now"
+            rows="4"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <p>&copy;&nbsp;2024, &nbsp;abhay gupta &nbsp;&nbsp;</p>
+      <img src="assets/images/footer.png" alt="footer">
+    </div>
+  </footer>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,385 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: #f0f0f0;
+}
+
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('/assets/clash-display/ClashDisplayRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplayBold';
+    src: url('assets/clash-display/ClashDisplaySemibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*Header Section*/
+header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("./assets/background.png") center / cover no-repeat;
+}
+
+/*Nav Section*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.489);
+}
+
+.logo {
+    padding-left: 20px;
+    height: 45px;
+}
+
+.navitem {
+    padding: 10px 20px;
+    font-family: 'ClashDisplay';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-family: 'ClashDisplayBold';
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Download {
+    padding-left: 10px;
+}
+
+/*Hero Section*/
+.hero {
+    height: fit-content;
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: 'ClashDisplay';
+}
+
+.content h1 {
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+.hcontainer {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.hcontainer h3 {
+    font-size: 2rem;
+}
+
+.hcontainer img {
+    height: 90px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.uhide {
+    display: none;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    font-size: 2rem;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+}
+
+.socials p {
+    padding-left: 5px;
+}
+
+
+/* Section*/
+.title {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-family: 'ClashDisplaybold';
+    text-align: center;
+    font-size: 25px;
+}
+
+.titleimg {
+    height: 45px;
+}
+
+
+
+/* About Section */
+.aboutme {
+    display: grid;
+    width: 90%;
+    font-family: 'ClashDisplay';
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.about-img img {
+    max-width: 100%;
+    max-height: 25rem;
+    border-radius: 0.625rem;
+    height: auto;
+}
+
+.aboutme p {
+    font-size: 1.25rem;
+}
+
+.aboutme ul {
+    padding: 0;
+    font-size: 1.25rem;
+}
+
+.aboutme li {
+    list-style: none;
+    padding: 0.3125rem;
+}
+
+/* Contact Section */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    font-family: 'ClashDisplay';
+    margin: 0 auto;
+    color: #fff;
+    padding: 4rem;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group label {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.0);
+    font-family: 'ClashDisplay';
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-family: 'ClashDisplay';
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Footer Section */
+footer div {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("./assets/background.png") center / cover no-repeat;
+    font-size: 15px;
+    font-family: 'ClashDisplay';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    height: 30px;
+}
+
+.skill {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.skillimg {
+    max-width: 800px;
+    width: 95%;
+    height: auto;
+}
+
+
+
+.pcontainer {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.pitem {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    font-family: 'ClashDisplay';
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.pitem:hover {
+    transform: translateY(-5px);
+}
+
+.pimg {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.ph3 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.pp {
+    padding: 10px;
+    padding-top: 0px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+.openbtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+    color: #333;
+}
+
+.openbtn:hover {
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .hide{
+        display: none;
+    }
+    .navitem, .btn{
+        font-size: 17px;
+    }
+    .Download{
+        height: 15px;
+    }
+    .uhide{
+        display: inline;
+    }
+    .hero {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .hcontainer h3 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .socials {
+        font-size: 1.5rem;
+    }
+
+    .socials p {
+        display: none;
+    }
+
+    .socials i.mail-icon {
+        display: inline-block;
+    }
+
+    .title {
+        font-size: 20px;
+    } 
+    .aboutme {
+        grid-template-columns: 1fr;
+    }
+    .aboutme div {
+        margin: auto;
+        max-width: 85%;
+    }
+    .pcontainer {
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (min-width: 992px) {
+    .pcontainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}   
